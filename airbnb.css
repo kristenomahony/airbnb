@@ -4,3 +4,8 @@ input.form-control {
 .d-flex {
   padding-bottom: 15px;
 }
+i {
+  width: 20px;
+  height: 20px;
+  color: black;
+}
