@@ -4,7 +4,6 @@
 .d-flex {
   width: 100%;
 }
-
 .thumbs {
   width: 20px;
   height: 20px;
@@ -24,4 +23,7 @@
   height: 50px;
   margin-left: 180px;
   margin-top: 20px;
+}
+.profile {
+  height: 100%;
 }
