@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Profile</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="airbnb.css" />
+    <link
+      rel="stylesheet"
+      href="https://fontawesome.com/v5.15/icons/thumbs-up?style=solid"
+    />
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://fontawesome.com/v5.15/icons/thumbs-up?style=solid"></script>
+    <script src="https://fontawesome.com/v5.15/icons/map-marker-alt?style=solid"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1642399114/portal/web%20development%20beginners/05%20Project%20Airbnb/assets/logo-airbnb.png"
+            width="70"
+            height="29"
+          />
+        </a>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button
+            class="btn btn-primary me-md-2"
+            class="btn btn-outline-primary"
+            type="button"
+          >
+            Tony Russo
+          </button>
+          <button class="btn btn-primary" type="button">Logout</button>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card w-75 profile mt-5">
+            <div class="card-body mt-5">
+              <h5 class="card-title">Profile-listings</h5>
+              <form>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Tony Russo"
+                  />
+                  <div class="mb-3 mt-3">
+                    <label for="exampleFormControlInput1" class="form-label"
+                      >Email address</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="tony@tortuga.com"
+                    />
+                    <div class="mb-3 mt-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Profile Picture</label
+                      >
+                      <input
+                        type="url"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="http://randomguy.com"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="btn btn-primary">Save Changes</a>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-7 mt-5">
+          <h2>My Listings</h2>
+          <form>
+            <a href="#" class="btn btn-primary mt-5">List a House</a><br />
+            <div class="card mb-3 mt-5">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295027/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2004/house_04_01.png"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Luxury Villa in Chaweng</h5>
+                    <span>4 rooms * $350/</span>
+                    <p class="card-text">
+                      Stylish, tropical, luxurious, airy and absolutely stunning
+                      view over the bay of Chaweng Beach, this villa combines
+                      form and function, enjoying magnificent views of Samui's
+                      small islands and the sea beyond. With 520sqm of
+                      indoor/outdoor living space with 7 ensuite bedrooms, large
+                      living area, infinity pool, garden, air conditioned gym,
+                      professional pool table, bbq and Sala, this villa is
+                      perfect for upto 14 adults. With 260sqm of liviing space
+                      and 260sqm of outdoor space.
+                    </p>
+                    <button type="button" class="btn btn-outline-secondary">
+                      Edit
+                    </button>
+                    <button type="button" class="btn btn-outline-success">
+                      View
+                    </button>
+                  </div>
+                </div>
+                <div class="card mb-3 mt-5">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295027/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2006/house_06_01.png"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Private Villa Lotus 1</h5>
+                        <p class="card-text">
+                          This modern 2 bedroom 3 bathroom villa with private
+                          pool is blessed with breath-taking sea views of the
+                          jungle and sea beyond yet only a 5-10 mins from town
+                          (Chaweng, the main town) Sits in a cul de sac of 7
+                          houses, up a 2km winding private jungle road hill, 2
+                          mins drive (15 min walk) to Chaweng Beach.
+                        </p>
+                        <button type="button" class="btn btn-outline-secondary">
+                          Edit
+                        </button>
+                        <button type="button" class="btn btn-outline-success">
+                          View
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
