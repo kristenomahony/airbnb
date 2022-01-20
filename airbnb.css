@@ -1,6 +1,3 @@
-input.form-control {
-  width: 200px;
-}
 .d-flex {
   padding-bottom: 15px;
 }
@@ -8,4 +5,7 @@ i {
   width: 20px;
   height: 20px;
   color: black;
+}
+.form-floating {
+  width: 700px;
 }
