@@ -66,6 +66,9 @@
 .btn-primary {
   background-color: #008080;
 }
+.btn-primary:hover {
+  background-color: #1ea1a1;
+}
 
 .teal {
   color: #008080;
