@@ -30,20 +30,29 @@
         </a>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
           <button
-            class="btn btn-primary me-md-2"
-            class="btn btn-outline-primary"
+            class="btn btn-outline-secondary me-md-2"
+            class="btn btn-outline-secondary"
             type="button"
           >
+            <span>
+              <img
+                class="avatar"
+                src="https://randomuser.me/api/portraits/men/11.jpg"
+                alt=""
+              />
+            </span>
             Tony Russo
           </button>
-          <button class="btn btn-primary" type="button">Logout</button>
+          <button class="btn btn-outline-secondary" type="button">
+            Logout
+          </button>
         </div>
       </div>
     </nav>
     <div class="container">
       <div class="row">
         <div class="col">
-          <div class="card w-75 profile">
+          <div class="card mt-5 w-75 profile">
             <div class="card-body">
               <h5 class="card-title">Profile</h5>
               <form>
@@ -53,7 +62,7 @@
                   >
                   <input
                     type="text"
-                    class="form-control"
+                    class="form-control mb-3"
                     id="exampleFormControlInput1"
                     placeholder="Tony Russo"
                   />
@@ -63,14 +72,18 @@
                     >
                     <input
                       type="email"
-                      class="form-control"
+                      class="form-control mb-3"
                       id="exampleFormControlInput1"
                       placeholder="tony@tortuga.com"
                     />
                     <div class="mb-3">
                       <label for="exampleFormControlInput1" class="form-label"
                         >Profile Picture</label
-                      >
+                      ><br /><img
+                        class="avatar-lg mb-3"
+                        src="https://randomuser.me/api/portraits/men/11.jpg"
+                        alt=""
+                      />
                       <input
                         type="url"
                         class="form-control"
@@ -86,12 +99,13 @@
           </div>
         </div>
         <div class="col-6">
-          <div class="card w-100">
+          <div class="card mt-5 w-100">
             <div class="card-body">
-              <h3 class="card-title mt-5">My Listings</h3>
+              <h3 class="card-title mt-3">My Listings</h3>
 
-              <a href="#" class="btn btn-primary mt-5">List a House</a><br />
-              <div class="card mt-5">
+              <a href="#" class="btn btn-primary mt-3 mb-3">List a House</a
+              ><br />
+              <div class="card mt-2">
                 <div class="card-body" rows="2">
                   You don't have any houses listed
                 </div>
