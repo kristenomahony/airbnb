@@ -10,13 +10,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="airbnb.css" />
-    <link
-      rel="stylesheet"
-      href="https://fontawesome.com/v5.15/icons/thumbs-up?style=solid"
-    />
-    <script type="text/javascript" src="script.js"></script>
-    <script src="https://fontawesome.com/v5.15/icons/thumbs-up?style=solid"></script>
-    <script src="https://fontawesome.com/v5.15/icons/map-marker-alt?style=solid"></script>
+    <script
+      src="https://kit.fontawesome.com/21af180ecc.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav class="navbar navbar-light bg-light">
@@ -151,6 +148,7 @@
         <div class="col-sm-6">
           <div class="card-body m-5">
             <h3 class="card-title mt-4">Luxury Villa in Chaweng</h3>
+            <i class="fas teal fa-map-marker-alt"></i>
             <span>Koh Samui * 4 rooms</span>
             <div class="card mt-4" style="max-width: 400px;">
               <div class="row g-0">
@@ -189,8 +187,12 @@
                 style="height: 150px"
               ></textarea>
             </div>
-            <button type="button" class="thumbs"></button>
-            <button type="button" class="thumbs"></button><br />
+            <button type="button">
+              <i class="fas fa-thumbs-up"></i>
+            </button>
+            <button type="button">
+              <i class="fas fa-thumbs-down"></i></button
+            ><br />
             <a href="#" class="btn btn-primary mt-3">Submit</a>
             <div class="card mb-3 mt-5">
               <div class="row g-0">
@@ -205,8 +207,9 @@
                 <div class="col-md-8">
                   <div class="card-body">
                     <small class="text-muted">02 Jan 2022-0101</small>
+                    <i class="fas fa-thumbs-up right"></i>
                     <h5 class="card-title">Peter Lewis</h5>
-                    <p class="card-text">
+                    <p class="card-text mb-3">
                       This place is fantastic! Views are breathtaking and its
                       just a short walk to the beach. We had a great time.
                     </p>
@@ -226,8 +229,9 @@
                 <div class="col-md-8">
                   <div class="card-body">
                     <small class="text-muted">02 Jan 2022-0101</small>
+                    <i class="fas fa-thumbs-up right"></i>
                     <h5 class="card-title">Melany Kim</h5>
-                    <p class="card-text">
+                    <p class="card-text mb-3">
                       My stay here was amazing. I love how the host thought
                       about all the little details. I will come again. 10/10
                     </p>
@@ -242,6 +246,7 @@
             <div class="card mt-5 pop-up shadow p-3 mb-5 bg-body rounded">
               <div class="card-body">
                 <h5 class="card-title">$350/night</h5>
+                <i class="fas fa-thumbs-up"></i>
                 <span>2 reviews</span>
                 <textarea
                   class="form-control mt-3"
