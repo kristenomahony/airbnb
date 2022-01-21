@@ -42,3 +42,13 @@
   height: 35px;
   border-radius: 15px;
 }
+
+.fa-thumbs-down {
+  color: red;
+}
+.fa-thumbs-up {
+  color: #008080;
+}
+.btn-primary {
+  background-color: #008080;
+}
