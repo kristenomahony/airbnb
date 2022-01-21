@@ -70,9 +70,15 @@
 .teal {
   color: #008080;
 }
-.right {
-  margin-left: 270px;
+.thumbs {
+  border-color: white;
+  width: 30px;
+  height: 30px;
 }
 .card-link {
   color: #008080;
+}
+
+.btn-outline-success:hover {
+  background-color: red;
 }
