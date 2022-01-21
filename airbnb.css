@@ -1,3 +1,6 @@
+.no-border {
+  border-color: white;
+}
 .house-name {
   width: 200px;
 }
